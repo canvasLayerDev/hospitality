@@ -54,20 +54,20 @@ export function Testimonials() {
     <section
       id="testimonials"
       data-testid="testimonials-section"
-      className="relative bg-[color:var(--color-cream)] py-12 md:py-16 overflow-hidden text-[color:var(--color-charcoal)]"
+      className="relative bg-white py-16 md:py-24 overflow-hidden text-[color:var(--color-charcoal)]"
     >
-      <div className="max-w-[1600px] mx-auto px-6 md:px-10 text-center mb-10">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 text-center mb-12">
         
-        {/* JRD Hotels SVG Logo Crest Emblem */}
-        <div className="flex justify-center mb-3">
-          <JRDLogo size={52} variant="dark" iconOnly />
+        {/* JRD Hotels Logo Crest Emblem */}
+        <div className="flex justify-center mb-4">
+          <JRDLogo size={56} variant="dark" iconOnly />
         </div>
 
         {/* Section Title & Subtitle */}
-        <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-[color:var(--color-royal-dark)] font-normal mb-3">
+        <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-[color:var(--color-royal-dark)] font-normal tracking-tight mb-4">
           What our guests say
         </h2>
-        <p className="text-sm md:text-base text-[color:var(--color-muted)] font-light max-w-2xl mx-auto leading-relaxed">
+        <p className="text-base sm:text-lg text-[color:var(--color-muted)] font-normal max-w-2xl mx-auto leading-relaxed">
           Real stories, happy memories, and heartfelt impressions from the people who stayed at JRD Hotels.
         </p>
 
@@ -91,12 +91,12 @@ export function Testimonials() {
             {[...row1, ...row1, ...row1].map((item, i) => (
               <div
                 key={`r1-${i}`}
-                className="shrink-0 w-[320px] sm:w-[360px] md:w-[400px] h-[210px] bg-white rounded-[28px] p-6 shadow-sm border border-black/5 flex flex-col justify-between text-left transition-transform hover:-translate-y-1"
+                className="shrink-0 w-[320px] sm:w-[380px] md:w-[420px] h-[230px] bg-white rounded-3xl p-6 shadow-lg border border-stone-200 flex flex-col justify-between text-left transition-transform hover:-translate-y-1"
               >
-                <p className="text-xs sm:text-sm text-[color:var(--color-charcoal)] font-light leading-relaxed line-clamp-4">
+                <p className="text-sm sm:text-base text-[color:var(--color-charcoal)] font-normal leading-relaxed line-clamp-4">
                   “{item.quote}”
                 </p>
-                <p className="font-sans text-sm font-medium text-[color:var(--color-royal-dark)] mt-4">
+                <p className="font-sans text-sm sm:text-base font-bold text-[color:var(--color-royal-dark)] mt-4">
                   {item.author}
                 </p>
               </div>
@@ -104,7 +104,7 @@ export function Testimonials() {
           </div>
         </div>
 
-        {/* ROW 2: Moving RIGHT (Opposite Direction) */}
+        {/* ROW 2: Moving RIGHT */}
         <div className="flex overflow-hidden group">
           <div
             className="flex gap-6 shrink-0 marquee-reverse"
@@ -116,12 +116,12 @@ export function Testimonials() {
             {[...row2, ...row2, ...row2].map((item, i) => (
               <div
                 key={`r2-${i}`}
-                className="shrink-0 w-[320px] sm:w-[360px] md:w-[400px] h-[210px] bg-white rounded-[28px] p-6 shadow-sm border border-black/5 flex flex-col justify-between text-left transition-transform hover:-translate-y-1"
+                className="shrink-0 w-[320px] sm:w-[380px] md:w-[420px] h-[230px] bg-white rounded-3xl p-6 shadow-lg border border-stone-200 flex flex-col justify-between text-left transition-transform hover:-translate-y-1"
               >
-                <p className="text-xs sm:text-sm text-[color:var(--color-charcoal)] font-light leading-relaxed line-clamp-4">
+                <p className="text-sm sm:text-base text-[color:var(--color-charcoal)] font-normal leading-relaxed line-clamp-4">
                   “{item.quote}”
                 </p>
-                <p className="font-sans text-sm font-medium text-[color:var(--color-royal-dark)] mt-4">
+                <p className="font-sans text-sm sm:text-base font-bold text-[color:var(--color-royal-dark)] mt-4">
                   {item.author}
                 </p>
               </div>
@@ -130,6 +130,7 @@ export function Testimonials() {
         </div>
 
       </div>
+
     </section>
   );
 }

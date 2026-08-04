@@ -67,8 +67,8 @@ export function LocationMap() {
         <div className="bg-[#f4efe6] rounded-[32px] p-6 md:p-10 border border-black/5 shadow-xs text-center">
           
           {/* Top Centered Caption matching Screenshot */}
-          <h2 className="font-sans text-lg sm:text-xl md:text-2xl text-[color:var(--color-royal-dark)] font-light max-w-3xl mx-auto leading-relaxed mb-8">
-            View our location on the map and get a feel for the stunning surroundings that await you.
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-[color:var(--color-royal-dark)] font-normal max-w-4xl mx-auto leading-relaxed mb-8">
+            View our central locations in New Delhi and explore nearby diplomatic enclaves & heritage landmarks.
           </h2>
 
           {/* Interactive Vector Map Container matching Screenshot */}
