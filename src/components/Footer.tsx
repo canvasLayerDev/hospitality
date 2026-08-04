@@ -13,9 +13,9 @@ export function Footer() {
         <img
           src="/images/footer-bg.jpg"
           alt="Footer Ocean Background"
-          className="w-full h-full object-cover opacity-25 scale-105"
+          className="w-full h-full object-cover opacity-35 transition-transform duration-1000 hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black/95 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/75 to-black/90 backdrop-blur-[1px]" />
       </div>
 
       <div className="relative z-10 max-w-[1600px] mx-auto px-6 md:px-12">
