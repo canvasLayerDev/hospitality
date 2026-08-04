@@ -13,7 +13,7 @@ import { FloatingActions } from './components/FloatingActions';
 
 export function App() {
   return (
-    <div className="min-h-screen bg-[color:var(--color-cream)] text-[color:var(--color-charcoal)] font-sans antialiased selection:bg-[color:var(--color-royal-dark)] selection:text-white">
+    <div className="min-h-screen bg-white text-[color:var(--color-charcoal)] font-sans antialiased selection:bg-[color:var(--color-royal-dark)] selection:text-white">
       <Header />
       <main>
         <Hero />

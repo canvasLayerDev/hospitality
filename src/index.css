@@ -5,14 +5,14 @@
     --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-display: 'Cinzel', 'Playfair Display', Georgia, serif;
-    --color-cream: #f7f5f0;
-    --color-cream-soft: #efebe4;
-    --color-ivory: #faf8f5;
+    --color-cream: #ffffff;
+    --color-cream-soft: #fafafa;
+    --color-ivory: #ffffff;
     --color-sand: #D4B066;       /* Exact JRD Gold from Logo */
     --color-bronze: #D4B066;     /* Exact JRD Gold Accent */
     --color-royal-dark: #4a4036;
     --color-royal-bg: #3d352c;
-    --color-charcoal: #231f1a;
+    --color-charcoal: #1c1917;
     --color-muted: #6b5f54;
   }
 }
@@ -27,7 +27,7 @@
     -webkit-font-smoothing: antialiased;
   }
   body {
-    background-color: var(--color-cream);
+    background-color: #ffffff;
     color: var(--color-charcoal);
     overflow-x: hidden;
     font-family: var(--font-sans);
@@ -99,7 +99,7 @@ html.lenis, html.lenis body {
   padding: 12px 28px;
   background-color: transparent;
   color: var(--color-charcoal);
-  border: 1px.5px solid var(--color-royal-dark);
+  border: 1.5px solid var(--color-royal-dark);
   border-radius: 9999px;
   font-size: 14px;
   font-weight: 600;
@@ -116,9 +116,9 @@ html.lenis, html.lenis body {
   align-items: center;
   gap: 6px;
   padding: 8px 18px;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 9999px;
   font-size: 13px;
   font-weight: 600;
@@ -129,12 +129,13 @@ html.lenis, html.lenis body {
   background-color: white;
   border-radius: 28px;
   overflow: hidden;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .royal-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
 }
 
 .image-cover {
