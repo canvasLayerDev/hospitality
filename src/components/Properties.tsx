@@ -64,9 +64,9 @@ export function Properties() {
           {/* Background Room Photo with Dark Overlay */}
           <div className="absolute inset-0 z-0">
             <img
-              src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=2000&q=85"
+              src="/images/properties/exotica-main.jpg"
               alt="Room Background"
-              className="image-cover opacity-45"
+              className="w-full h-full object-cover opacity-45"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
           </div>
