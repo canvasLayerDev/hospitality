@@ -2,18 +2,18 @@
 
 @layer theme {
   :root {
-    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-    --font-serif: 'Marcellus', 'Cormorant Garamond', Georgia, serif;
-    --font-display: 'Cormorant Garamond', 'Marcellus', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cinzel', 'Playfair Display', Georgia, serif;
     --color-cream: #f7f5f0;
     --color-cream-soft: #efebe4;
     --color-ivory: #faf8f5;
-    --color-sand: #D4B066;       /* Exact JRD Gold from Logo Screenshot */
+    --color-sand: #D4B066;       /* Exact JRD Gold from Logo */
     --color-bronze: #D4B066;     /* Exact JRD Gold Accent */
     --color-royal-dark: #4a4036;
     --color-royal-bg: #3d352c;
     --color-charcoal: #231f1a;
-    --color-muted: #73675c;
+    --color-muted: #6b5f54;
   }
 }
 
@@ -31,8 +31,9 @@
     color: var(--color-charcoal);
     overflow-x: hidden;
     font-family: var(--font-sans);
-    font-weight: 300;
-    line-height: 1.6;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.65;
     letter-spacing: 0.01em;
   }
   ::selection {
@@ -47,7 +48,7 @@
   }
   h1, h2, h3, h4 {
     font-family: var(--font-serif);
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: -0.01em;
   }
 }
@@ -75,17 +76,19 @@ html.lenis, html.lenis body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 10px 24px;
+  padding: 12px 28px;
   background-color: var(--color-royal-dark);
   color: white;
   border-radius: 9999px;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
   transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .btn-royal:hover {
   background-color: #382f27;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .btn-royal-outline {
@@ -93,13 +96,14 @@ html.lenis, html.lenis body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 10px 24px;
+  padding: 12px 28px;
   background-color: transparent;
   color: var(--color-charcoal);
-  border: 1px solid var(--color-royal-dark);
+  border: 1px.5px solid var(--color-royal-dark);
   border-radius: 9999px;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
   transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .btn-royal-outline:hover {
@@ -111,44 +115,26 @@ html.lenis, html.lenis body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 16px;
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 8px 18px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 9999px;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
   color: var(--color-charcoal);
-}
-
-.pill-toggle {
-  display: inline-flex;
-  align-items: center;
-  padding: 3px;
-  background-color: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 9999px;
-}
-.pill-toggle-btn {
-  padding: 6px 14px;
-  border-radius: 9999px;
-  font-size: 12px;
-  transition: all 0.3s ease;
-}
-.pill-toggle-btn.active {
-  background-color: var(--color-royal-dark);
-  color: white;
 }
 
 .royal-card {
   background-color: white;
-  border-radius: 24px;
+  border-radius: 28px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
   transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .royal-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-6px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
 }
 
 .image-cover {
@@ -164,38 +150,4 @@ html.lenis, html.lenis body {
 @keyframes kenburns {
   0% { transform: scale(1); }
   100% { transform: scale(1.06); }
-}
-
-.marquee {
-  display: flex;
-  width: max-content;
-  animation: marquee 42s linear infinite;
-}
-.marquee:hover {
-  animation-play-state: paused;
-}
-@keyframes marquee {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
-}
-
-.marquee-reverse {
-  display: flex;
-  width: max-content;
-  animation: marquee-reverse 42s linear infinite;
-}
-.marquee-reverse:hover {
-  animation-play-state: paused;
-}
-@keyframes marquee-reverse {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(0%); }
-}
-
-.grain {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.02;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }

@@ -48,13 +48,13 @@ export function Header() {
             </span>
           </a>
 
-          {/* Center: Navigation Links - Our Hotels, Promotions, Facilities, Contact Us, Event Management */}
-          <nav className="hidden lg:flex items-center gap-8" data-testid="main-nav">
+          {/* Center: Navigation Links - Our Hotels, Promotions, Facilities, Event Management, Contact Us */}
+          <nav className="hidden lg:flex items-center gap-8 md:gap-10" data-testid="main-nav">
             {nav.filter(n => n.label !== 'Home').map((n) => (
               <a
                 key={n.href + n.label}
                 href={n.href}
-                className={`text-sm font-sans font-normal tracking-wide hover:opacity-70 transition-opacity ${
+                className={`text-base font-sans font-semibold tracking-wide hover:text-[color:var(--color-sand)] transition-colors ${
                   scrolled ? 'text-[color:var(--color-charcoal)]' : 'text-white'
                 }`}
               >
