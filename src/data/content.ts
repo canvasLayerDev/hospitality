@@ -88,34 +88,28 @@ export const hotelDirectory: HotelDirectoryItem[] = [
 
 export const heroSlides = [
   {
-    src: '/images/hero/hero-exotica.jpg',
+    src: '/images/hero/slider-1.png',
     title: 'Hotel JRD Exotica, New Delhi',
     subtitle: 'Chanakyapuri Enclave & Panchsheel Park',
     caption: 'Hotel JRD Exotica · Luxury Business Hotel in South Delhi',
   },
   {
-    src: '/images/hero/hero-luxury.jpg',
+    src: '/images/hero/slider-2.jpg',
     title: 'Hotel JRD Luxury, New Delhi',
     subtitle: 'Near Hauz Khas, Delhi',
     caption: 'Hotel JRD Luxury · Uniquely Designed for Refined Living',
   },
   {
-    src: '/images/hero/hero-pride.jpg',
+    src: '/images/hero/slider-3.jpg',
     title: 'Hotel JRD Pride, New Delhi',
     subtitle: 'Jangpura, New Delhi',
     caption: 'Hotel JRD Pride · Newly Built Luxury Boutique Hotel',
   },
   {
-    src: '/images/hero/hero-club-rooms.jpg',
-    title: 'Club Rooms, Hotel JRD Exotica',
+    src: '/images/hero/slider-4.jpg',
+    title: 'Club & Executive Suites, JRD Group',
     subtitle: 'Ultra Modern Facilities & Teak Interiors',
-    caption: 'Club Rooms · JRD Exotica Business Hotel',
-  },
-  {
-    src: '/images/hero/hero-premium-rooms.jpg',
-    title: 'Premium Rooms, JRD Luxury',
-    subtitle: 'Refined Comfort & High-Class Hospitality',
-    caption: 'Premium Rooms · JRD Luxury Hotel New Delhi',
+    caption: 'Executive Suites · JRD Hotels New Delhi',
   },
 ];
 
