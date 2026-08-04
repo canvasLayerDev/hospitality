@@ -7,7 +7,7 @@ export function Properties() {
       id: 'exotica-suite',
       name: 'JRD Exotica Suite',
       price: 'From ₹7,500 / night',
-      image: '/images/properties/room-exotica-suite.jpg',
+      image: '/images/assets/Executive_Rooms,_Hotel_JRD_Exotica.webp',
       description: 'Panoramic balcony with views of South Delhi, comfortably furnished with luxury teak interiors, quiet acoustics, and private parking.',
       tag: 'Chanakyapuri',
     },
@@ -15,7 +15,7 @@ export function Properties() {
       id: 'luxury-deluxe',
       name: 'JRD Luxury Deluxe',
       price: 'From ₹8,900 / night',
-      image: '/images/properties/room-luxury-deluxe.jpg',
+      image: '/images/assets/club_9_akz6cv.webp',
       description: 'Spacious executive room in Safdarjung Enclave, diplomatic enclave views, high-quality Italian marble bath, and 24-hour room service.',
       tag: 'Hauz Khas',
     },
@@ -23,7 +23,7 @@ export function Properties() {
       id: 'pride-executive',
       name: 'JRD Pride Executive',
       price: 'From ₹6,500 / night',
-      image: '/images/properties/room-pride-executive.jpg',
+      image: '/images/assets/Superior_1_qraunk.avif',
       description: 'Contemporary new-build suite in Jangpura with gigabit fiber, workstation, acoustic insulation, and 24-hour lounge access.',
       tag: 'Jangpura',
     },
@@ -31,7 +31,7 @@ export function Properties() {
       id: 'exotica-club',
       name: 'Exotica Club Room',
       price: 'From ₹8,200 / night',
-      image: '/images/properties/room-exotica-club.jpg',
+      image: '/images/assets/Club_Rooms,_Hotel_JRD_Exotica.webp',
       description: 'Intimate garden-facing suite with complimentary afternoon Hi-Tea and priority early check-in privilege.',
       tag: 'Panchsheel',
     },
@@ -50,7 +50,7 @@ export function Properties() {
           {/* Background Room Photo with Dark Overlay */}
           <div className="absolute inset-0 z-0">
             <img
-              src="/images/properties/exotica-main.jpg"
+              src="/images/assets/executive_4_abub1l.webp"
               alt="Room Background"
               className="w-full h-full object-cover opacity-35"
             />
