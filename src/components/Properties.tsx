@@ -10,28 +10,28 @@ export function Properties() {
       id: 'exotica-suite',
       name: 'JRD Exotica Suite',
       price: 'From ₹7,500',
-      image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=85',
+      image: '/images/properties/room-exotica-suite.jpg',
       description: 'Panoramic balcony with views of South Delhi, comfortably furnished with luxury teak interiors, quiet acoustics, and private parking.'
     },
     {
       id: 'luxury-deluxe',
       name: 'JRD Luxury Deluxe',
       price: 'From ₹8,900',
-      image: 'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=85',
+      image: '/images/properties/room-luxury-deluxe.jpg',
       description: 'Spacious executive room in Chanakyapuri, diplomatic enclaves views, high-quality Italian marble bath, and 24-hour room service.'
     },
     {
       id: 'pride-executive',
       name: 'JRD Pride Executive',
       price: 'From ₹6,500',
-      image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=85',
+      image: '/images/properties/room-pride-executive.jpg',
       description: 'Contemporary new-build suite in Jangpura with gigabit fiber, workstation, acoustic insulation, and 24-hour lounge access.'
     },
     {
       id: 'exotica-club',
       name: 'Exotica Club Room',
       price: 'From ₹8,200',
-      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85',
+      image: '/images/properties/room-exotica-club.jpg',
       description: 'Intimate garden-facing suite with complimentary afternoon Hi-Tea and priority early check-in privilege.'
     }
   ];

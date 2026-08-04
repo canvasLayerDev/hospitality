@@ -11,32 +11,32 @@ export function About() {
 
   const reelImages = [
     {
-      src: "https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-hotels/club_5_iavmsy",
+      src: "/images/about/about-courtyard.jpg",
       title: "JRD Exotica Courtyard",
       sub: "South Delhi · Panchsheel Park"
     },
     {
-      src: "https://assets.simplotel.com/simplotel/image/upload/x_0,y_38,w_1024,h_575,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-hotels/premium_room_m4njnu",
+      src: "/images/about/about-mandap.jpg",
       title: "Royal Wedding Mandap Lawn",
       sub: "Harshi Event Management"
     },
     {
-      src: "https://assets.simplotel.com/simplotel/image/upload/x_0,y_281,w_4362,h_2456,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-exotica/Club_Rooms,_Hotel_JRD_Exotica",
+      src: "/images/about/about-suite.jpg",
       title: "JRD Luxury Diplomatic Suite",
       sub: "Chanakyapuri Enclave"
     },
     {
-      src: "https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-hotels/executive_4_sy3ze8",
+      src: "/images/about/about-convention.jpg",
       title: "Executive Convention Hall",
       sub: "Corporate Summits"
     },
     {
-      src: "https://assets.simplotel.com/simplotel/image/upload/x_0,y_193,w_1022,h_575,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/hotel-jrd-pride-new-delhi/Superior_1_qraunk",
+      src: "/images/about/about-facade.jpg",
       title: "JRD Pride Facade",
       sub: "Central Delhi · Jangpura"
     },
     {
-      src: "https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_1650,f_auto,c_fit/jrd-hotels/interior_1_hltg3b",
+      src: "/images/about/about-bath.jpg",
       title: "Italian Marble Bath Suites",
       sub: "Boutique Craftsmanship"
     }

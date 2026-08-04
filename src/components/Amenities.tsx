@@ -15,17 +15,17 @@ const whyChooseUsCards = [
   {
     id: 'gym',
     title: 'Gym at Hotel JRD Exotica New Delhi',
-    image: 'https://images.unsplash.com/photo-1534368959876-26bf04f2c947?auto=format&fit=crop&w=1200&q=85',
+    image: '/images/facilities/facility-gym.jpg',
   },
   {
     id: 'wifi',
     title: 'Complimentary Wifi at Hotel JRD Exotica New Delhi',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=85',
+    image: '/images/facilities/facility-wifi.jpg',
   },
   {
     id: 'travel-desk',
     title: 'Travel Desk at Hotel JRD Exotica New Delhi',
-    image: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=1200&q=85',
+    image: '/images/facilities/facility-travel.jpg',
   },
 ];
 
@@ -68,19 +68,19 @@ export function Amenities() {
       id: 'heritage',
       title: 'Delhi Heritage & Monuments',
       description: 'A unique collection of iconic monuments, Mughal architecture, and historic forts , Humayun\u2019s Tomb, Qutub Minar, and India Gate located minutes away.',
-      image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1000&q=85'
+      image: '/images/facilities/exp-heritage.jpg'
     },
     {
       id: 'embassy',
       title: 'Diplomatic Enclave & Gardens',
       description: 'Stroll through Chanakyapuri\u2019s peaceful tree-lined avenues, embassy lawns, and Nehru Park gardens right outside your luxury suite.',
-      image: 'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1000&q=85'
+      image: '/images/facilities/exp-embassy.jpg'
     },
     {
       id: 'markets',
       title: 'Boutique Bazaars & Shopping',
       description: 'Explore Hauz Khas Village boutiques, Khan Market culinary dining, and handcrafted artisan markets with private hotel chauffeur transfers.',
-      image: 'https://images.unsplash.com/photo-1572177812156-58036aae439c?auto=format&fit=crop&w=1000&q=85'
+      image: '/images/facilities/exp-markets.jpg'
     }
   ];
 

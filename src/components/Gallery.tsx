@@ -6,28 +6,28 @@ export function Gallery() {
       id: 'direct-offer',
       title: 'Direct Booking Offers',
       subtitle: 'Book direct on our official website to receive 5% off plus complimentary afternoon Hi-Tea.',
-      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/promotions/promo-direct.jpg',
       badge: 'Exclusive Direct Savings',
     },
     {
       id: 'wedding-package',
       title: 'Royal Wedding Packages',
       subtitle: 'Tailored wedding banquet packages with Harshi Event Management for memorable luxury celebrations.',
-      image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/promotions/promo-wedding.jpg',
       badge: 'Banquets & Celebrations',
     },
     {
       id: 'summit-specials',
       title: 'Corporate Summits',
       subtitle: 'Executive conference packages including Technogym access, high-speed fiber, and airport shuttles.',
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/promotions/promo-summit.jpg',
       badge: 'Business Delegation',
     },
     {
       id: 'weekend-stay',
       title: 'Weekend Getaways',
       subtitle: 'Boutique staycation experiences in Chanakyapuri and Hauz Khas with complimentary late check-out.',
-      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/promotions/promo-weekend.jpg',
       badge: 'Leisure Escapes',
     },
   ];
@@ -41,7 +41,7 @@ export function Gallery() {
       {/* Background Image with Dark Gradient Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2200&q=85"
+          src="/images/promotions/promo-bg.jpg"
           alt="Promotions Background"
           className="w-full h-full object-cover opacity-30"
         />

@@ -52,7 +52,7 @@ export const hotelDirectory: HotelDirectoryItem[] = [
       { name: 'Ms. Mehta Duggal', role: 'Chairperson', phone: '+91 98 1013 5281' },
     ],
     email: 'jrdexoticahotel@gmail.com',
-    image: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_140,w_4368,h_2457,r_0,c_crop,q_80,fl_progressive/w_550,f_auto,c_fit/jrd-exotica/Club_Rooms,_Hotel_JRD_Exotica',
+    image: '/images/properties/exotica-main.jpg',
   },
   {
     id: 'luxury',
@@ -67,7 +67,7 @@ export const hotelDirectory: HotelDirectoryItem[] = [
       { name: 'Ms. Mehta Duggal', role: 'Chairperson', phone: '+91 98 1013 5281' },
     ],
     email: 'jrdhotel@gmail.com',
-    image: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_38,w_1024,h_575,r_0,c_crop,q_80,fl_progressive/w_550,f_auto,c_fit/jrd-hotels/premium_room_m4njnu',
+    image: '/images/properties/luxury-main.jpg',
   },
   {
     id: 'pride',
@@ -82,37 +82,37 @@ export const hotelDirectory: HotelDirectoryItem[] = [
       { name: 'Ms. Mehta Duggal', role: 'Chairperson', phone: '+91 98 1013 5281' },
     ],
     email: 'jrdpride@gmail.com',
-    image: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_550,f_auto,c_fit/jrd-hotels/executive_4_sy3ze8',
+    image: '/images/properties/pride-main.jpg',
   },
 ];
 
 export const heroSlides = [
   {
-    src: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-hotels/club_5_iavmsy',
+    src: '/images/hero/hero-exotica.jpg',
     title: 'Hotel JRD Exotica, New Delhi',
     subtitle: 'Chanakyapuri Enclave & Panchsheel Park',
     caption: 'Hotel JRD Exotica · Luxury Business Hotel in South Delhi',
   },
   {
-    src: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-hotels/clubnew4_sljmrh',
+    src: '/images/hero/hero-luxury.jpg',
     title: 'Hotel JRD Luxury, New Delhi',
     subtitle: 'Near Hauz Khas, Delhi',
     caption: 'Hotel JRD Luxury · Uniquely Designed for Refined Living',
   },
   {
-    src: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_193,w_1022,h_575,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/hotel-jrd-pride-new-delhi/Superior_1_qraunk',
+    src: '/images/hero/hero-pride.jpg',
     title: 'Hotel JRD Pride, New Delhi',
     subtitle: 'Jangpura, New Delhi',
     caption: 'Hotel JRD Pride · Newly Built Luxury Boutique Hotel',
   },
   {
-    src: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_281,w_4362,h_2456,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/jrd-exotica/Club_Rooms,_Hotel_JRD_Exotica',
+    src: '/images/hero/hero-club-rooms.jpg',
     title: 'Club Rooms, Hotel JRD Exotica',
     subtitle: 'Ultra Modern Facilities & Teak Interiors',
     caption: 'Club Rooms · JRD Exotica Business Hotel',
   },
   {
-    src: 'https://assets.simplotel.com/simplotel/image/upload/x_71,y_0,w_1029,h_577,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/hotel-jrd-luxury-new-delhi/premium_rooms,_JRD_Luxury_hotel,_new_delhi',
+    src: '/images/hero/hero-premium-rooms.jpg',
     title: 'Premium Rooms, JRD Luxury',
     subtitle: 'Refined Comfort & High-Class Hospitality',
     caption: 'Premium Rooms · JRD Luxury Hotel New Delhi',
@@ -127,7 +127,7 @@ export const properties = [
     number: '01',
     description: 'The Luxury Boutique Hotel in South Delhi promises to provide a pleasant, comfortable and memorable stay and cater to all the needs of its esteemed guests.',
     location: 'Chanakyapuri (Near all Embassy offices) / Panchsheel Park, South Delhi',
-    image: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_140,w_4368,h_2457,r_0,c_crop,q_80,fl_progressive/w_550,f_auto,c_fit/jrd-exotica/Club_Rooms,_Hotel_JRD_Exotica',
+    image: '/images/properties/exotica-main.jpg',
     url: 'https://www.jrdhotels.com/jrd-exotica-new-delhi/',
     meta: [
       { label: 'Inventory', value: '32 Club & Executive Suites' },
@@ -142,7 +142,7 @@ export const properties = [
     number: '02',
     description: 'Hotel JRD Luxury is situated in the heart of New Delhi and is uniquely designed for travellers with a refined style of living.',
     location: 'Near Hauz Khas, New Delhi',
-    image: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_38,w_1024,h_575,r_0,c_crop,q_80,fl_progressive/w_550,f_auto,c_fit/jrd-hotels/premium_room_m4njnu',
+    image: '/images/properties/luxury-main.jpg',
     url: 'https://www.jrdhotels.com/jrd-luxury-new-delhi/',
     meta: [
       { label: 'Inventory', value: '28 Premium Suites' },
@@ -157,7 +157,7 @@ export const properties = [
     number: '03',
     description: 'JRD Pride is a newly built luxury boutique hotel with ultra modern facilities. Perfect for business trips, our hotel provides an enchanting staying experience.',
     location: 'Jangpura, New Delhi',
-    image: 'https://assets.simplotel.com/simplotel/image/upload/x_0,y_378,w_4032,h_2268,r_0,c_crop,q_80,fl_progressive/w_550,f_auto,c_fit/jrd-hotels/executive_4_sy3ze8',
+    image: '/images/properties/pride-main.jpg',
     url: 'https://www.jrdhotels.com/jrd-pride-new-delhi/',
     meta: [
       { label: 'Inventory', value: '36 Superior & Deluxe Rooms' },
