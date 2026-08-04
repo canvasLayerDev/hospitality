@@ -11,34 +11,24 @@ export function About() {
 
   const reelImages = [
     {
-      src: "/images/about/about-courtyard.jpg",
+      src: "/images/hero/slider-1.png",
       title: "JRD Exotica Courtyard",
       sub: "South Delhi · Panchsheel Park"
     },
     {
-      src: "/images/about/about-mandap.jpg",
+      src: "/images/hero/slider-2.jpg",
       title: "Royal Wedding Mandap Lawn",
       sub: "Harshi Event Management"
     },
     {
-      src: "/images/about/about-suite.jpg",
+      src: "/images/hero/slider-3.jpg",
       title: "JRD Luxury Diplomatic Suite",
       sub: "Chanakyapuri Enclave"
     },
     {
-      src: "/images/about/about-convention.jpg",
+      src: "/images/hero/slider-4.jpg",
       title: "Executive Convention Hall",
       sub: "Corporate Summits"
-    },
-    {
-      src: "/images/about/about-facade.jpg",
-      title: "JRD Pride Facade",
-      sub: "Central Delhi · Jangpura"
-    },
-    {
-      src: "/images/about/about-bath.jpg",
-      title: "Italian Marble Bath Suites",
-      sub: "Boutique Craftsmanship"
     }
   ];
 
