@@ -8,6 +8,8 @@ export function Hero() {
   const [selectedHotel, setSelectedHotel] = useState('exotica');
   const [arrivalDate, setArrivalDate] = useState('');
   const [departureDate, setDepartureDate] = useState('');
+  const [arrivalFocus, setArrivalFocus] = useState(false);
+  const [departureFocus, setDepartureFocus] = useState(false);
   const [guestConfig, setGuestConfig] = useState('2 Guests · 1 Room');
 
   useEffect(() => {
@@ -87,7 +89,7 @@ export function Hero() {
 
       {/* Quick Reservation Booking Bar / Widget */}
       <div className="relative z-20 max-w-[1400px] w-full mx-auto px-4 md:px-8 mb-6">
-        <div className="bg-black/50 backdrop-blur-xl border border-white/20 rounded-3xl p-4 md:p-6 shadow-2xl">
+        <div className="bg-black/60 backdrop-blur-xl border border-white/20 rounded-3xl p-4 md:p-6 shadow-2xl">
           
           <div className="flex items-center gap-2 mb-3 text-xs uppercase tracking-wider font-semibold text-[color:var(--color-sand)]">
             <Calendar size={14} />
@@ -129,12 +131,14 @@ export function Hero() {
               <div className="flex items-center gap-2">
                 <Calendar size={16} className="text-[color:var(--color-sand)] shrink-0" />
                 <input
-                  type="date"
+                  type={arrivalFocus || arrivalDate ? 'date' : 'text'}
+                  onFocus={() => setArrivalFocus(true)}
+                  onBlur={() => setArrivalFocus(false)}
                   min={new Date().toISOString().split('T')[0]}
                   value={arrivalDate}
                   onChange={(e) => setArrivalDate(e.target.value)}
                   placeholder="Add date"
-                  className="w-full bg-transparent text-xs font-semibold text-white focus:outline-none cursor-pointer"
+                  className="w-full bg-transparent text-xs font-semibold text-white focus:outline-none cursor-pointer placeholder:text-white/70"
                 />
               </div>
             </div>
@@ -147,12 +151,14 @@ export function Hero() {
               <div className="flex items-center gap-2">
                 <Calendar size={16} className="text-[color:var(--color-sand)] shrink-0" />
                 <input
-                  type="date"
+                  type={departureFocus || departureDate ? 'date' : 'text'}
+                  onFocus={() => setDepartureFocus(true)}
+                  onBlur={() => setDepartureFocus(false)}
                   min={arrivalDate || new Date().toISOString().split('T')[0]}
                   value={departureDate}
                   onChange={(e) => setDepartureDate(e.target.value)}
                   placeholder="Add date"
-                  className="w-full bg-transparent text-xs font-semibold text-white focus:outline-none cursor-pointer"
+                  className="w-full bg-transparent text-xs font-semibold text-white focus:outline-none cursor-pointer placeholder:text-white/70"
                 />
               </div>
             </div>
